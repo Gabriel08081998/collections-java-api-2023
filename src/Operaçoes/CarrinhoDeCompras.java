@@ -1,4 +1,4 @@
-package OperaçoesBasicas;
+package Operaçoes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,11 +35,9 @@ public class CarrinhoDeCompras {
 		    return valorTotal;
 	}
 	 public void exibirItens() {
-		 System.out.println("Itens no carrinho:");
-		 for (Item item : itemList) {
-		        System.out.println("Nome: " + item.getNome() + ", Preço: R$" + item.getPreco() + ", Quantidade: " + item.getQuantidade());
+		 System.out.println(itemList);
 		 }
-	}
+	
 	 
 	 public int itemNocarinho() {
 			return itemList.size();

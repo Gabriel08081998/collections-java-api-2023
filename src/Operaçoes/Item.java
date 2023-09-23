@@ -1,4 +1,4 @@
-package OperaçoesBasicas;
+package Operaçoes;
 
 public class Item {
 
